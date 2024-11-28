@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["import", "@typescript-eslint", "prettier"],
   extends: [
@@ -18,9 +18,9 @@ const config = {
   },
   ignorePatterns: ["node_modules/"],
   rules: {
-    "@typescript-eslint/no-empty-function": "off", // Allow empty functions
-    "@typescript-eslint/no-empty-interface": "off", // Allow empty interfaces
-    "@typescript-eslint/no-explicit-any": "off", // Allow 'any' type
+    "@typescript-eslint/no-empty-function": "off", // use function() {}
+    "@typescript-eslint/no-empty-interface": "off", // use empty {}
+    "@typescript-eslint/no-explicit-any": "off", // except any error
     "@typescript-eslint/no-unused-vars": "off",
     "no-console": "off",
     "max-classes-per-file": "off",
@@ -47,5 +47,3 @@ const config = {
     },
   },
 };
-
-export default config;

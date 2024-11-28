@@ -1,17 +1,12 @@
 {
-  "name": "@anogle/eslint",
-  "version": "0.0.1",
+  "name": "eslint-config-anogle",
+  "version": "0.0.3",
   "description": "It is angole eslint role.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
-  },
+  "main": "index.js",
+  "scripts": {},
   "author": "jeongho <jeangho293@gmail.com>",
   "license": "ISC",
   "private": false,
-  "type": "module",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
@@ -25,6 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeangho293/anogle-eslint"
-  }
+    "url": "git+https://github.com/jeangho293/anogle-eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeangho293/anogle-eslint/issues"
+  },
+  "homepage": "https://github.com/jeangho293/anogle-eslint#readme"
 }
