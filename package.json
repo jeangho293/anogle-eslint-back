@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-anogle-back",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It is angole eslint role.",
   "main": "index.js",
   "scripts": {},
